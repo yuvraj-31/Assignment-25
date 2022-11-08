@@ -9,7 +9,7 @@ using namespace std;
 class Square{
     
   public:
-  static int count=0;
+  static int count;
   static void squarecal(int x){
      
     cout<<"Square of the number is "<<x*x<<endl;
@@ -28,7 +28,7 @@ class Square{
        
        Square::squarecal(8);
        Square::squarecal(16);
-       Square::count();
+       Square::Countcall();
         
         return 0;
     }
